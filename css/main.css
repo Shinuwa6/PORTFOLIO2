@@ -1,0 +1,502 @@
+/*! HTML5 Boilerplate v5.2.0 | MIT License | https://html5boilerplate.com/ */
+
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+/*
+ * Remove text-shadow in selection highlight:
+ * https://twitter.com/miketaylr/status/12228805301
+ *
+ * These selection rule sets have to be separate.
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/*
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
+/* ==========================================================================
+   Browser Upgrade Prompt
+   ========================================================================== */
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+/* ##################################################################### */
+/* ##########################   SMARTPHONE   ########################### */
+/* ##################################################################### */
+/* Extra small devices (phones, less than 768px) */
+.bghead {
+    padding-bottom: 40px;
+    background : url("../img/rokfondd.jpg");
+    filter: grayscale(30%);
+    background-repeat: no-repeat;
+    padding-bottom: 9%;
+    width: 100%;
+}
+.polm {
+    font-size: 4em;
+    margin-left: 7%;
+    color: grey;
+    opacity: 0.5;
+    padding-top: 0;
+}
+.regl {
+    margin-top: 2%;
+}
+.pol {
+    margin-left: 7%;
+    color: grey;
+}
+.polm:hover {
+    opacity: 1;
+    transition: 0.5s;
+    color: white;
+}
+.bolds {
+    font-weight: bold;
+}
+ul li a {
+    color: white !important;
+    opacity: 0.5;
+    font-weight: bold;
+}
+ul li a:hover {
+    opacity: 1;
+    transition: 0.5s;
+}
+.colord {
+    color: white !important;
+}
+header h1 {
+    border-bottom: solid white 1px;
+    margin-top: 50px;
+    font-size: 40px;
+    line-height: 2em;
+    color: white;
+    margin-left: 10px;
+}
+header p {
+    margin-top: 25px;
+    color: white;
+    margin-left: 10px;
+}
+header a {
+    color: #CC0033;
+    padding-bottom: 30px;
+    margin-left: 10px;
+    margin-left: 7%;
+    font-weight: bold;
+}
+header a:hover {
+    text-decoration: none;
+    color: grey;
+    transition: 0.5s;
+}
+.nav {
+    background-color: transparent !important;
+}
+.nav1 {
+    margin-right: 10% !important;
+}
+.poliss {
+    font-weight: xx-small !important;
+    color: grey;
+    font-weight: bold !important;
+    text-transform: uppercase;
+    font-size: 13px !important;
+    text-align: left;
+    margin-left: 5%;
+    word-spacing: 9px;
+}
+/*AJUSTEMENT*/
+.pad {
+    padding-bottom: 7%;
+}
+.haut {
+    margin-top: 5%;
+}
+.first {
+    background-color: #F5F6F7 !important;
+}
+.dsp {
+    display: none;
+}
+.product .img-responsive {
+    margin: 0 auto;
+}
+.intg {
+    margin-top: 2%;
+}
+.transpa {
+    opacity: 0.2;
+}
+.transpa:hover {
+    opacity: 1;
+    transition: 1s;
+}
+.yes {
+    display: none;
+}
+
+.decal {
+  margin-left: 25%;
+}
+
+/* ##################################################################### */
+/* ############################   TABLETS   ############################ */
+/* ##################################################################### */
+/* Small devices (tablets, 768px and up) */
+   @media (min-width: 769px) {
+     .bghead {
+         padding-bottom: 40px;
+         background : url("../img/ys.jpg");
+        height: 120%;
+       }
+
+       .pol {
+
+           color: #black;
+       }
+       ul li a:hover {
+           opacity: 1;
+           transition: 0.5s;
+           color: #CC0033 !important;
+       }
+       ul li a {
+         opacity: 0.8
+       }
+       .pol {
+           margin-left: 20%;
+           color: black;
+       }
+
+   }
+
+/* ##################################################################### */
+/* ############################   DESKTOPS   ########################### */
+/* ##################################################################### */
+/* Medium devices (desktops, 992px and up) */
+   @media (min-width: 992px) {
+
+   }
+
+/* ##################################################################### */
+/* ########################   LARGE DESKTOPS   ######################### */
+/* ##################################################################### */
+/* Large devices (large desktops, 1200px and up) */
+   @media (min-width: 1200px) {
+
+   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+   /* #############################################################################################################################*/
+   /* #############################################################################################################################*/
+   /* #########################################################ANIMATION HEADER####################################################*/
+   /* #############################################################################################################################*/
+   /* #############################################################################################################################*/
+   /* #############################################################################################################################*/
+   /* #############################################################################################################################*/
+   @-webkit-keyframes typing {
+       /*largeur du caractere a taper safari chrome opera*/
+       from {
+           width: 0
+       }
+       to {
+           width: 19em
+       }
+   }
+   @-moz-keyframes typing {
+       /*largeur du caractere a taper mozilla firefox*/
+       from {
+           width: 0
+       }
+       to {
+           width: 12em
+       }
+   }
+   @-webkit-keyframes blink-caret {
+       from, to {
+           border-color: transparent
+       }
+       50% {
+           border-color: white
+       }
+   }
+   @-moz-keyframes blink-caret {
+       from, to {
+           border-color: transparent
+       }
+   }
+   h1 {
+       opacity: 1;
+       margin-left: 7% !important;
+       font-size: 2em !important;
+       font-weight: bolder;
+       white-space: nowrap !important;
+       overflow: hidden !important;
+       border-right: .1em solid lightblue !important;
+       -webkit-animation: typing 6s steps(8, end), /* # of steps = # of characters */
+       blink-caret 1s step-end infinite;
+       -moz-animation: typing 6s steps(30, end), /* # of steps = # of characters */
+       blink-caret 1s step-end infinite;
+       color: black;
+   }
+   h1:hover {
+       opacity: 1;
+       transition: 0.4s;
+       color: green;
+   }
+   .wut {color: #CC0033 !important;}
+/*
+ * Hide visually and from screen readers:
+ */
+
+.hidden {
+    display: none !important;
+}
+
+/*
+ * Hide only visually, but have it available for screen readers:
+ * http://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+ */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element
+ * to be focusable when navigated to via the keyboard:
+ * https://www.drupal.org/node/897638
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+/*
+ * Hide visually and from screen readers, but maintain layout
+ */
+
+.invisible {
+    visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+}
+
+@media print,
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 1.25dppx),
+       (min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid the additional HTTP request:
+   http://www.phpied.com/delay-loading-your-print-css/
+   ========================================================================== */
+
+@media print {
+    *,
+    *:before,
+    *:after {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster:
+                                   http://www.sanbeiji.com/archives/953 */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links that are fragment identifiers,
+     * or use the `javascript:` pseudo protocol
+     */
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    /*
+     * Printing Tables:
+     * http://css-discuss.incutio.com/wiki/Printing_Tables
+     */
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
