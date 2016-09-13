@@ -102,17 +102,18 @@ textarea {
 /* Extra small devices (phones, less than 768px) */
 .bghead {
     padding-bottom: 40px;
-    background : url("../img/rokfondd.jpg");
+    background : url("../img/yss.jpg");
     filter: grayscale(30%);
     background-repeat: no-repeat;
     padding-bottom: 9%;
     width: 100%;
+  filter: grayscale(60%) !important;
 }
 .polm {
     font-size: 4em;
     margin-left: 7%;
-    color: grey;
-    opacity: 0.5;
+    color: black;
+    opacity: 0.8;
     padding-top: 0;
 }
 .regl {
@@ -120,7 +121,7 @@ textarea {
 }
 .pol {
     margin-left: 7%;
-    color: grey;
+    color: white;
 }
 .polm:hover {
     opacity: 1;
@@ -132,12 +133,13 @@ textarea {
 }
 ul li a {
     color: white !important;
-    opacity: 0.5;
+    opacity: 0.9;
     font-weight: bold;
 }
 ul li a:hover {
     opacity: 1;
     transition: 0.5s;
+    color: #753136;
 }
 .colord {
     color: white !important;
@@ -156,7 +158,7 @@ header p {
     margin-left: 10px;
 }
 header a {
-    color: #CC0033;
+    color: white;
     padding-bottom: 30px;
     margin-left: 10px;
     margin-left: 7%;
@@ -186,9 +188,11 @@ header a:hover {
 /*AJUSTEMENT*/
 .pad {
     padding-bottom: 7%;
+
 }
 .haut {
-    margin-top: 5%;
+    margin-top: 8%;
+    font-weight: bold;
 }
 .first {
     background-color: #F5F6F7 !important;
@@ -217,6 +221,60 @@ header a:hover {
   margin-left: 25%;
 }
 
+.red {
+  background-color: #753136;
+  height: 20px;
+}
+.orange {
+  background-color: #D7B994;
+  height: 20px;
+}
+.yellow {
+  background-color: #EFE47D;
+  height: 20px;
+}
+.green {
+  background-color: #559346;
+  height: 20px;
+}
+.blue {
+  background-color: #33949B;
+  height: 20px;
+}
+.purple {
+  background-color: #46365B;
+  height: 20px;
+}
+
+.titre-sect {
+  text-align: center;
+  font-family: fantasy;;
+
+}
+
+.imgsd {
+  border-radius: 10%;
+  margin-left: 10%;
+}
+
+
+.ylw {
+  background: url("../img/elef.jpg");
+  background-size: cover;
+  height: 200%;
+  max-width: 100%;
+  filter: grayscale(40%) !important;
+}
+.bgtxt {
+  background: rgba(255, 255, 255, 0.2)  ;
+}
+
+.txtcol {
+  margin-bot: 20px;
+  font-weight: bolder;
+  color: #753136;
+  background: rgba(255, 255, 255, 0.4)
+}
 /* ##################################################################### */
 /* ############################   TABLETS   ############################ */
 /* ##################################################################### */
@@ -225,6 +283,7 @@ header a:hover {
      .bghead {
          padding-bottom: 40px;
          background : url("../img/ys.jpg");
+         border-radius: 1%;
         height: 120%;
        }
 
@@ -243,6 +302,9 @@ header a:hover {
        .pol {
            margin-left: 20%;
            color: black;
+       }
+       .bgtxt {
+         background: rgba(255, 255, 255, 0.2)  ;
        }
 
    }
@@ -318,7 +380,7 @@ header a:hover {
        }
    }
    h1 {
-       opacity: 1;
+       opacity: 0.8;
        margin-left: 7% !important;
        font-size: 2em !important;
        font-weight: bolder;
@@ -333,7 +395,7 @@ header a:hover {
    }
    h1:hover {
        opacity: 1;
-       transition: 0.4s;
+       transition: 0.5s;
        color: green;
    }
    .wut {color: #CC0033 !important;}
