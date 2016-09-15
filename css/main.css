@@ -105,8 +105,9 @@ textarea {
 /* Extra small devices (phones, less than 768px) */
 .bghead {
     padding-bottom: 40px;
-    background : url("../img/lel.png");
-    background-repeat: no-repeat;
+    background : url("../img/head.png");
+    background-size: cover;
+
     padding-bottom: 9%;
     width: 100%;
 
@@ -142,6 +143,7 @@ ul li a:hover {
     opacity: 1;
     transition: 0.5s;
     color: black !important;
+    border-radius: 80%;
 }
 .colord {
     color: white !important;
@@ -231,7 +233,7 @@ header a:hover {
   font-weight: bolder;
   color: #AAE1FF;
 background: rgba(255, 255, 200, 0.1);
-margin-right: 32%;
+
 }
 
 .imgsd {
@@ -241,7 +243,7 @@ margin-right: 32%;
 
 
 .ylw {
-  background: url("../img/lel2.png");
+  background: url("../img/head2.png");
   background-size: cover;
   padding-bottom: 40px;
 
@@ -257,21 +259,19 @@ background: rgba(255, 255, 200, 0.1);
 
 .txtcol {
   margin-bot: 20px;
-  font-weight: bolder;
+  font-weight: 900;
   color: white;
 background: rgba(255, 255, 200, 0.1);
-
-
 text-align: center;
 
 }
 
 .ylww {
-  background: url("../img/eleff.jpg");
+  background: url("../img/lel3.png");
 }
 
 .opac {
-  opacity: 0.7;
+  opacity: 0.8;
 }
 .opac:hover {opacity: 1;
 transition: 0.5s;}
@@ -564,12 +564,27 @@ transition: 0.5s;}
     }
 }
 
+.chang {margin-bottom: 30%;}
 
 
 
 
+.effet {
+	width: 200px; height: 220px;
+	margin: 3em auto;
 
-
+	border: 20px solid #aaa;
+	border-radius: 30px;
+	transition: border-radius 2s, border-color 3s; /* transition when the mouse leave */
+  margin-right: 2%;
+  text-align: center;
+}
+.effet:hover {
+	border-color: #333;
+	transform: rotate(1080deg);
+	border-radius: 50%;
+	transition: all 1s; /* transition when the mouse over */
+}
 
 /* #############################################################################################################################*/
 /* #############################################################################################################################*/
@@ -583,14 +598,14 @@ footer div h4 {
     color: black;
 }
 .footer-distributed {
-    background-color: #233532;
+    background: url("../img/lel4.png");
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
     box-sizing: border-box;
     width: 100%;
     text-align: left;
     font: bold 16px sans-serif;
     padding: 55px 50px;
-    margin-top: 12%;
+    margin-top: 1%;
 }
 .footer-distributed .footer-left, .footer-distributed .footer-center, .footer-distributed .footer-right {
     display: inline-block;
