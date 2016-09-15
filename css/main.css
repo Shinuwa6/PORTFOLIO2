@@ -15,9 +15,12 @@ html {
     font-size: 1em;
     line-height: 1.4;
 }
-
+.poliss {
+s
+}
 ul li a h3 {
   font-weight: bold;
+  font-family: 'Muli', sans-serif;
 }
 /*
  * Remove text-shadow in selection highlight:
@@ -229,7 +232,7 @@ header a:hover {
 
 .titre-sect {
   text-align: center;
-  font-family: fantasy;
+  font-family: 'Baloo Tamma', cursive;
   font-weight: bolder;
   color: #AAE1FF;
 background: rgba(255, 255, 200, 0.1);
@@ -393,6 +396,7 @@ transition: 0.5s;}
        -moz-animation: typing 6s steps(30, end), /* # of steps = # of characters */
        blink-caret 1s step-end infinite;
        color: black;
+       font-family: 'Baloo Tamma', cursive;
    }
    h1:hover {
        opacity: 1;
@@ -595,7 +599,7 @@ transition: 0.5s;}
 /* #############################################################################################################################*/
 footer div h4 {
     font-weight: bold;
-    color: black;
+    color: grey;
 }
 .footer-distributed {
     background: url("../img/lel4.png");
@@ -672,7 +676,7 @@ footer div h4 {
 }
 .footer-distributed .footer-center p {
     display: inline-block;
-    color: #ffffff;
+    color: grey;
     vertical-align: middle;
     margin: 0;
 }
